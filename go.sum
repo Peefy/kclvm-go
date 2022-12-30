@@ -1,8 +1,8 @@
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 cloud.google.com/go v0.34.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
-github.com/Peefy/kclvm-artifact-go v0.0.0-20221230024220-5c89844c641c h1:i+fIOXqwLXXviOBTUoKlN6ufcQgy+T1vQyBP0kaDbBE=
-github.com/Peefy/kclvm-artifact-go v0.0.0-20221230024220-5c89844c641c/go.mod h1:WI+NvDeMqu1AduJT119X7q8KQdYmKfv4Nq4OvZ1tAsI=
+github.com/Peefy/kclvm-artifact-go v0.0.0-20221230034016-2cc0b9207144 h1:nEBeX5N7yoyGItQ2OLbeFmR5/DN63Wr6h+g8fPPvMaQ=
+github.com/Peefy/kclvm-artifact-go v0.0.0-20221230034016-2cc0b9207144/go.mod h1:WI+NvDeMqu1AduJT119X7q8KQdYmKfv4Nq4OvZ1tAsI=
 github.com/antihax/optional v1.0.0/go.mod h1:uupD/76wgC+ih3iEmQUL+0Ugr19nfwCT1kdvxnR2qWY=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/cespare/xxhash/v2 v2.1.1/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XLFGgcrjCOs=
