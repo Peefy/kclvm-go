@@ -31,3 +31,5 @@ require (
 	golang.org/x/text v0.3.3 // indirect
 	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013 // indirect
 )
+
+replace kusionstack.io/kclvm-artifact-go => github.com/Peefy/kclvm-artifact-go v0.0.0-20221230024220-5c89844c641c
