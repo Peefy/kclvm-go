@@ -22,7 +22,7 @@ func init() {
 		gopath = build.Default.GOPATH
 	}
 
-	err := kclvmArtifact.InstallKclvm(filepath.Join(gopath, ".config"))
+	err := kclvmArtifact.InstallKclvm(gopath)
 	if err != nil {
 		logger.GetLogger().Warningf("install kclvm failed: %s", err.Error())
 	}
