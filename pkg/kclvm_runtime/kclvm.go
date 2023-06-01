@@ -17,12 +17,12 @@ import (
 
 func init() {
 
-	gopath := os.Getenv("GOPATH")
+	gopath := os.Getenv("HOME")
 	if gopath == "" {
 		gopath = build.Default.GOPATH
 	}
 
-	err := kclvmArtifact.InstallKclvm(gopath)
+	err := kclvmArtifact.InstallKclvm(filepath.Join(gopath, ".config"))
 	if err != nil {
 		logger.GetLogger().Warningf("install kclvm failed: %s", err.Error())
 	}
