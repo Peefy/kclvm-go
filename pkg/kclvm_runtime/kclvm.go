@@ -17,7 +17,7 @@ import (
 
 func init() {
 
-	gopath := os.Getenv("HOME")
+	gopath := os.Getenv("GOPATH")
 	if gopath == "" {
 		gopath = build.Default.GOPATH
 	}
